@@ -96,7 +96,6 @@ with col2:
         # Om meg
         with tabs[1]:
             st.write('#')
-            st.text('')
             st.markdown(""" <style> .fontMegName {font-size:30px ; font-family: 'Alegreya, serif'; color: #000000;} 
                                                          </style> """, unsafe_allow_html=True)
             st.markdown('<p class="fontMegName">Elin D. Chelighem</p>', unsafe_allow_html=True)
