@@ -1,0 +1,63 @@
+#title {
+    position:absolute;
+    z-index:1;
+   /* margin-top: -30px;*/
+}
+
+.css-1v0mbdj > img {
+    position: absolute;
+    z-index: 0;
+    top: -20px;
+}
+
+/* div: Hovedside Om meg Kontakt */
+.stTabs {
+    position: relative;
+    padding-left: 15px;
+    padding-top: 75px;
+}
+
+/*color the moving line under tab-names*/
+[data-baseweb="tab-highlight"] {
+    background-color: blue;
+
+}
+/* tabs-names without background-color  */
+:is(#tabs-bui3-tab-0, #tabs-bui3-tab-1, #tabs-bui3-tab-2) {
+    background-color: transparent;
+    font: 20px Alegreya serif;
+}
+
+/* tabs-names font */
+[data-baseweb="tab"] > div > p {
+    font: 20px Alegreya serif;
+    color: black;
+}
+[data-baseweb="tab"] > div > p:hover {
+    color: white;
+}
+
+/*:is(#tabs-bui3-tab-0 > div:nth-child(1), #tabs-bui3-tab-1 > div:nth-child(1), #tabs-bui3-tab-2 > div:nth-child(1)) {
+    color: black;
+}
+:is(#tabs-bui3-tab-0 > div:nth-child(1), #tabs-bui3-tab-1 > div:nth-child(1), #tabs-bui3-tab-2 > div:nth-child(1)):hover {
+    color: white;
+}
+:is(#tabs-bui3-tab-0 > div:nth-child(1), #tabs-bui3-tab-1 > div:nth-child(1), #tabs-bui3-tab-2 > div:nth-child(1)):focus {
+    font: 20px italic Alegreya serif;
+}*/
+
+
+/* color blue for tabs-names start & focus */
+
+/*.st-c5 {
+    color: black;
+}
+.st-c5:hover {
+    color: white;
+}
+.st-c5:focus {
+    color: blue;
+}
+*/
+

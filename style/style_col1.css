@@ -1,0 +1,24 @@
+/* label vel/velg språk:  */
+div.row-widget.stRadio > label > div > p {
+    padding-bottom: 15px;
+    margin-top:285px;
+    font: 20px Alegreya serif;
+    margin-left: -5px;
+    color: black;
+}
+
+/*labels: Nynorsk/Bokmål*/
+[data-baseweb="radio"] > div {
+    font: italic 20px Alegreya serif;
+    margin-left: -5px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+/*blue color for radio buttons */
+div.st-co:nth-child(1) {
+    background-color: blue;
+}
+
+
+

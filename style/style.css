@@ -1,0 +1,130 @@
+#myForm {
+  position: relative;
+}
+
+/* Style inputs with type="text", type="email"and textareas */
+input[type=text], input[type=email], textarea {
+  width: 59%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid rgb(240, 242, 246);
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font: 20px Alegreya, serif;
+  background-color: #72b9ed;
+}
+
+button[type=submit] {
+    background-color: transparent;
+}
+
+:is(#myForm > input[type="text"]:focus, #myForm > input[type="email"]:focus){
+  background-color: #b2dfdb;
+  border: 1px solid #016ABC;
+}
+
+textarea {
+  height: 200px;
+}
+
+textarea:focus {
+  background-color: #b2dfdb;
+  border: 1px solid #016ABC;
+}
+
+input[type="file"] {
+  font: 18px Alegreya, serif;
+  width: 350px;
+  max-width: 100%;
+  color: black ; /* #444 */
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+.btn-flip {
+    width: 90px;
+    height: 45px;
+    left: 0;
+    opacity: 1;
+	outline: 0;
+    line-height: 40px;
+	position: absolute;
+	justify-content: center;
+    margin: auto;
+	letter-spacing: 1px;
+	display: flex;
+    color: black;
+    border-radius: 4px;
+    font-family: Alegreya, serif;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #eee;
+}
+ .btn-flip:hover:after {
+	 opacity: 1;
+	 transform: translateY(0) rotateX(0);
+}
+ .btn-flip:hover:before {
+	 opacity: 0;
+	 transform: translateY(50%) rotateX(90deg);
+}
+ .btn-flip:after {
+	 top: 2px;
+	 left: 2px;
+	 opacity: 0;
+	 width: 95%;
+	 color: white;   /* #323237 */
+     font-style: italic;
+	 display: block;
+	 transition: 0.5s;
+	 position: absolute;
+	 background: #5ea7d2 ;  /* #adadaf */
+	 content: attr(data-back);
+	 transform: translateY(-50%) rotateX(90deg);
+}
+ .btn-flip:before {
+	 top: 0;
+	 left: 0;
+	 opacity: 1;
+	 color: black ;  /* #adadaf */
+	 display: block;
+	 padding: 0 30px;
+	 line-height: 40px;
+	 transition: 0.5s;
+	 position: relative;
+	 background: transparent;
+	 content: attr(data-front);
+	 transform: translateY(0) rotateX(0);
+}
+
+input[type=file]::file-selector-button {
+  display: none;
+}
+
+#labelUpload {
+  position: absolute;
+  font: 19px Alegreya, serif;
+  color: black;
+  top: -55px;
+  left: 0;
+}
+
+#upload {
+  background-color: #72b9ed;
+  border: 1px dashed rgb(240, 242, 246);
+}
+
+#upload:focus {
+  background-color: #b2dfdb;
+  border: 1px solid rgb(240, 242, 246);
+}
+
+
+
+
+
+
+
