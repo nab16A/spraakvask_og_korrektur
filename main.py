@@ -130,7 +130,7 @@ with col2:
             st.write('#')
             st.write('#')
             contact_form = """
-            <form id="myForm" action = "https://formsubmit.co/c9ceb87d17a7a5425aa1f0ca1cb9b200"
+            <form id="myForm" action = "https://formsubmit.co/0d93a5cadb13d41eabbc7206e0136813"
                   method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="_captcha" value="true">
                 <input type="text" name="Navn" placeholder="Fullt navn" required>
@@ -231,7 +231,7 @@ with col2:
             st.write('#')
 
             contact_form = """
-                        <form id="myForm" action = "https://formsubmit.co/c9ceb87d17a7a5425aa1f0ca1cb9b200"
+                        <form id="myForm" action = "https://formsubmit.co/0d93a5cadb13d41eabbc7206e0136813"
              method="POST" enctype="multipart/form-data"> <input type="hidden" name="_captcha" value="true"> <input
              type="text" name="Navn" placeholder="Fullt namn" required> <input type="email" name="E-post"
              placeholder="Di e-postadresse" required> <textarea name="Melding" placeholder="Di melding"
